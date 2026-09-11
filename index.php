@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Curio Open Dag</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="Logos/curio-11-donker-paars-logo-rgb.png">
+        </nav>
+    </header>
+    <main>
+        <h1>Dit is een placeholder</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet sint cumque ea libero dolorum expedita a ex odit? Id porro sint voluptates iusto sit, numquam eum saepe dolor tenetur facere!</p>
+    </main>
+
+    <footer>
+        <&copy; Curio, 2026>
+    </footer>
+</body>
+</html>

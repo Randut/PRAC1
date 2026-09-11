@@ -1,0 +1,18 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+header{
+    background-color: yellow;
+}
+main{
+    color: purple;
+}
+footer{
+    background-color: purple;
+    color: yellow;
+}
+img{
+    width: 200px;
+    height: 100px;
+}
