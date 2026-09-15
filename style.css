@@ -1,18 +1,128 @@
 *{
-    margin: 0 auto;
-    padding: 0 auto;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
-header{
-    background-color: yellow;
+html{
+    scroll-behavior:smooth;
 }
-main{
-    color: purple;
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:1.6;
+    background-color:#ffd900;
 }
+.navbar{
+    position:sticky;
+    top:0;
+    background: #ffd900;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    z-index:1000;
+}
+.navbar img{
+    height:60px;
+    width:auto;
+}
+.navbar ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+.navbar a{
+    text-decoration:none;
+    color:#5c068c;
+    font-weight:bold;
+    transition:0.3s;
+}
+.navbar a:hover{
+    color:#ffd900;
+}
+.hero{
+    min-height:90vh;
+    background:linear-gradient(
+        rgba(92,6,140,0.8),
+        rgba(92,6,140,0.8)
+    ),
+    url("Fotos_locaties/Sanne\ Bas\ -\ Curio\ -\ Terheijdenseweg\ 350-1.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+    color: #ffd900;
+
+    padding:20px;
+}
+.hero-content{
+    max-width:800px;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+.hero p{
+    font-size:1.2rem;
+    margin-bottom:30px;
+}
+.btn{
+    background:#ffd900;
+    color:#5c068c;
+    padding:15px 30px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+.btn:hover{
+    background: cyan;
+}
+.content{
+    padding:100px 10%;
+    text-align:center;
+}
+.content h2{
+    color:#5c068c;
+    margin-bottom:30px;
+    font-size:2.2rem;
+}
+.card-container{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.card{
+    background: #5c068c;
+    padding:25px;
+    width:300px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+.card h3{
+    color:#ffd900;
+    margin-bottom:10px;
+}
+.card p{
+    color: #ffd900;
+}
+.content img{
+    width:100%;
+    max-width:700px;
+    border-radius:15px;
+    margin-top:30px;
+}
+
 footer{
-    background-color: purple;
-    color: yellow;
-}
-img{
-    width: 200px;
-    height: 100px;
+    background:#5c068c;
+    color: #ffd900;
+    text-align:center;
+    padding:30px;
 }
