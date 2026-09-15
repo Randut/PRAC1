@@ -126,3 +126,145 @@ footer{
     text-align:center;
     padding:30px;
 }
+.info-section{
+    display:flex;
+    align-items:center;
+    gap:60px;
+
+    max-width:1200px;
+    margin:80px auto;
+    padding:50px;
+
+    background: #5c068c;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.info-section.reverse{
+    flex-direction:row-reverse;
+}
+
+.info-text{
+    flex:1;
+}
+
+.info-text h2{
+    color:#ffd900;
+    margin-bottom:20px;
+    font-size:2.3rem;
+}
+
+.info-text p{
+    margin-bottom:20px;
+    font-size:1.05rem;
+}
+
+.info-text ul{
+    padding-left:20px;
+}
+
+.info-text li{
+    margin-bottom:10px;
+}
+
+.info-image{
+    flex:1;
+}
+
+.info-image img{
+    width:100%;
+    border-radius:15px;
+    display:block;
+}
+
+@media(max-width:900px){
+
+    .info-section,
+    .info-section.reverse{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .info-text ul{
+        list-style-position:inside;
+    }
+
+}
+@media (max-width: 768px){
+
+
+    .navbar{
+        flex-direction: column;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .navbar img{
+        height: 50px;
+    }
+
+    .navbar ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+    .hero{
+        min-height: 100vh;
+        padding: 30px 20px;
+    }
+
+    .hero h1{
+        font-size:clamp(2rem, 5vw, 3rem);
+    }
+    .hero p{
+        font-size:clamp(1rem, 2vw, 1.2rem);
+    }
+
+    .btn{
+        display: inline-block;
+        padding: 12px 20px;
+        font-size: .95rem;
+    }
+
+    .content{
+        padding: 50px 5%;
+    }
+
+
+    .card{
+        width: 100%;
+        max-width: 350px;
+    }
+
+
+    .info-section,
+    .info-section.reverse{
+        flex-direction: column;
+        text-align: center;
+
+        margin: 40px auto;
+        padding: 25px;
+        gap: 25px;
+    }
+
+    .info-text ul{
+        list-style-position: inside;
+        padding-left: 0;
+    }
+
+    .info-text h2{
+        font-size: 1.8rem;
+    }
+
+    .info-image{
+        width: 100%;
+    }
+
+    .info-image img{
+        width: 100%;
+        height: auto;
+    }
+
+}
