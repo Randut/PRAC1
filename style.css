@@ -157,14 +157,17 @@ footer{
 .info-text p{
     margin-bottom:20px;
     font-size:1.05rem;
+    color: white;
 }
 
 .info-text ul{
     padding-left:20px;
+    color: white;
 }
 
 .info-text li{
     margin-bottom:10px;
+    color: white;
 }
 
 .info-image{
